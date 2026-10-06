@@ -1,0 +1,11 @@
+employee=input("Enter employee name: ")
+basic_salary=float(input("Enter basic salary: "))
+transport_allowance=float(input("Enter transport allowance: "))
+food_allowance=float(input("Enter food allowance: "))
+gross_salary=basic_salary+transport_allowance+food_allowance
+print("========================================\n EMPLOYEE PAYSLIP \n ========================================")
+print(f"Employee:{employee}")
+print(f"basic_salary:  {basic_salary}ETB\n Transport allowance:  {transport_allowance}ETB\n Food allowance:  {food_allowance}ETB")
+print("----------------------------------------")
+print(f"Gross salary:  {gross_salary}")
+print("========================================\n Thank you for your hard work!\n ========================================")

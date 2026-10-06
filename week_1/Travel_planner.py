@@ -1,0 +1,10 @@
+Destination=input("enter your destination ")
+Distance=int(input("enter distance in km "))
+Average_speed=int(input("enter Average speed in km/h "))
+time=int(Distance/Average_speed)
+time_in_min= time*60
+print(f"Destination:{Destination}")
+print(f"Distance:{Distance} km")
+print(f"Average_speed:{Average_speed} km/hr\n")
+print(f"Estimated Travel Time:{time} hours")
+print(f"Estimated Travel Time:{time_in_min} minutes")

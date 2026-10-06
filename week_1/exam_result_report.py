@@ -1,0 +1,10 @@
+Student_name=input("enter your name ")
+python_score= int(input("enter your python score "))
+english_score= int(input("enter yoyr english score "))
+maths_score= int(input(" enter your maths score "))
+avarage= (python_score + english_score + maths_score)/3
+print("========================================\n STUDENT RESULT \n ========================================")
+print(f"Student_name:{Student_name}\n python:{python_score}\n English:{english_score}\n mathematics:{maths_score}")
+print("----------------------------------------")
+print(f"avarage:{avarage}")
+print("========================================")

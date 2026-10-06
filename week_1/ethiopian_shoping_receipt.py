@@ -1,0 +1,11 @@
+Customer_name= input("enter your name:")
+product_name= input("enter product name:")
+price= float(input("enter price:"))
+quantity=int(input("enter quantity:"))
+total_price=quantity*price
+print("========================================\n RECEIPT \n ========================================")
+print(f"customer:{Customer_name}")
+print("product"+ "   " +"price"+"   "+"Qty")
+print(f"{product_name}   {price}   {quantity}")
+print(f"Total:{total_price}")
+print("Thank you for shopping!\n========================================")
