@@ -1,4 +1,4 @@
-a,b,c=int(input("enter the first number: "),int(input("enter the second number: ")),int(input("enter the third number: ")))
+a,b,c=int(input("enter the first number: ")),int(input("enter the second number: ")),int(input("enter the third number: "))
 
 if a>=b and a>=c:
     print("the largest number is:",a)
